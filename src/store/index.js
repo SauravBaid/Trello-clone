@@ -4,7 +4,7 @@ import rootReducer from "../reducers";
 const loadState = () => {
   try {
     const state = localStorage.getItem("state");
-    // console.log(state);
+    console.log(state);
     if (state === null) {
       return undefined;
     }

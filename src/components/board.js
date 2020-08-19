@@ -64,6 +64,7 @@ class board extends Component {
 
   render() {
     const { list } = this.props;
+    console.log(this.props);
     return (
       <DragDropContext onDragEnd={this.onDragEnd}>
         <div>

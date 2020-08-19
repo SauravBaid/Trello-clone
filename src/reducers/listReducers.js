@@ -1,7 +1,18 @@
 import { VALUES } from "../action";
 
 const intialState = {
-  board: localStorage.getItem("state"),
+  board: [
+    {
+      id: `list+${0}`,
+      title: "Backlogs",
+      cards: [],
+    },
+    {
+      id: `list+${1}`,
+      title: "Priority",
+      cards: [],
+    },
+  ],
 };
 
 const listReducer = (state = intialState.board, action) => {
