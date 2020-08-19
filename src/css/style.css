@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #298fca;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar {
+  background-color: #094c72;
+  padding: 0.8rem 2rem;
+  font-size: 1.5rem;
+  color: #dedede;
+  font-weight: 500;
+  display: flex;
+  flex: 1;
+}
+
+/* 
+
+    GENERAL STYLES
+
+*/
+
+i {
+  color: rgb(81, 81, 81);
+  cursor: pointer;
+}
+
+.icon_section {
+  text-align: right;
+}
+.icon {
+  display: inline-block;
+  padding: 0rem 0.2rem;
+}
+.grey_text {
+  color: #898989;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.input {
+  overflow: hidden;
+  overflow-wrap: break-word;
+  resize: none;
+  border: none;
+  box-shadow: none;
+  margin-bottom: 4px;
+  max-height: 162px;
+  min-height: 54px;
+  padding: 0.5rem;
+}
+
+.input_text {
+  border: none;
+  padding: 0.4rem 1rem;
+  margin: 0.5rem, 0rem;
+  margin-bottom: 1rem;
+  width: 88%;
+  border-radius: 3px;
+}
+
+.btn_container {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.btn {
+  background-color: #5aac44;
+  box-shadow: none;
+  border: none;
+  color: #fff;
+  padding: 0.4rem;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.cancel_btn {
+  margin: 0rem 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+/* 
+
+    BOARD STYLES
+
+*/
+
+.container {
+  padding: 1rem;
+  position: absolute;
+  overflow-x: auto;
+  overflow-y: hidden;
+  height: 90vh;
+  white-space: nowrap;
+}
+
+/* 
+
+    LIST STYLES
+
+*/
+
+.list_container {
+  background-color: #e2e4e6;
+  position: relative;
+  padding: 0.4em 0.6rem;
+  border-radius: 0.2rem;
+  margin: 0rem 0.4rem;
+  display: inline-block;
+  width: 272px;
+  max-height: 90%;
+  min-height: auto;
+  vertical-align: top;
+  overflow: auto;
+}
+
+.list_heading {
+  font-size: 0.9rem;
+  font-weight: bold;
+  border-radius: 0.2rem;
+  padding: 0.2rem;
+}
+
+.add_list {
+  background-color: #094c72;
+  position: relative;
+  color: #dedede;
+  width: 200px;
+  padding: 0.4em 0.6rem;
+  border-radius: 0.2rem;
+  margin: 0rem 0.4rem;
+  height: 25px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* 
+ 
+    CARD STYLES
+
+*/
+
+.card_container {
+  padding: 0.4rem;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  border-radius: 3px;
+  display: block;
+  margin-bottom: 8px;
+  max-width: 300px;
+  min-height: 20px;
+  position: relative;
+  white-space: normal;
+}
+
+.card_container:hover {
+  background-color: #eeeeee;
+  transition: all 0.2s ease-out;
+}
+
+.card_content {
+  font-size: 0.8rem;
+  font-weight: 400;
+}
