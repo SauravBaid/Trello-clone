@@ -14,7 +14,7 @@ export default function navbar() {
           }}
         ></i>
       </Link>
-      <span>Kubric - Trello</span>
+      <span>Trello</span>
     </div>
   );
 }
